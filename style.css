@@ -5,7 +5,7 @@ body{
 }
 
 :root{
-    --primary-color: #3c39b9;
+    --primary-color: #1D4ED8;
     --primary-grey: #403f3a;
     --primary-black: #282724;
 }
@@ -48,3 +48,41 @@ input {
     margin: 1rem auto;
     max-width: 25rem;
 }
+
+#calculate:hover{
+    cursor: pointer;
+    background-color: #3B82F6;
+}
+
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: large;
+}
+
+#portfolio-logo{
+    display: block;
+    margin: 14px auto;
+    height: 2rem;
+    width: 2rem;
+}
+
+footer img{
+        width: 25px;
+        height: 25px;
+        margin: 10px 20px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:visited{
+    color: black;
+}
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }

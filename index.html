@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,35 @@
     <link rel="stylesheet" href="style.css">
     <title>Stocks App</title>
 </head>
+
 <body>
-    <h1>How's my Portfolio Doing?</h1>
-    <label for="initialprice" id="initialprice"></label>
-    <input type="number" id="initialprice" name="initialprice" placeholder="Initial Price">
-    <label for="num-stocks" id="num-stocks"></label>
-    <input type="number" id="num-stocks" name="num-stocks" placeholder="Number of Stocks">
-    <label for="currentprice" id="currentprice"></label>
-    <input type="number" id="currentprice" name="currentprice" placeholder="Current Price">
-    <button id="calculate">Calculate</button>
-    <div id="results"></div>
-    <script src="app.js"></script>
+    <div class="flex-wrapper">
+        <div class="container">
+            <h1>How's my Portfolio Doing?</h1>
+            <label for="initialprice" id="initialprice"></label>
+            <input type="number" id="initialprice" name="initialprice" placeholder="Initial Price">
+            <label for="num-stocks" id="num-stocks"></label>
+            <input type="number" id="num-stocks" name="num-stocks" placeholder="Number of Stocks">
+            <label for="currentprice" id="currentprice"></label>
+            <input type="number" id="currentprice" name="currentprice" placeholder="Current Price">
+            <button id="calculate">Calculate</button>
+            <div id="results"></div>
+        </div>
+        <footer>
+            <p>&copy; Muskan Bagrecha, 2021</p>
+            <p>Connect with me!</p>
+            <a href="https://github.com/muskanbagrecha">
+                <img src="logos/github-logo.png" alt="Github-profile" id="logo">
+            </a>
+            <a href="https://twitter.com/HoejackBorseman">
+                <img src="logos/twitter-sign.png" alt="Twitter-profile" id="logo">
+            </a>
+            <a href="https://www.linkedin.com/in/muskan-bagrecha-82bbb8176">
+                <img src="logos/linkedin-logo.png" alt="Linkedin-profile" id="logo">
+            </a>
+
+        </footer>
+        <script src="app.js"></script>
 </body>
+
 </html>
