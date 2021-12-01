@@ -86,3 +86,7 @@ footer a:visited{
     flex-direction: column;
     justify-content: space-between;
   }
+
+.no-stocks{
+    color: white;
+}
